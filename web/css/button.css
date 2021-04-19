@@ -1,0 +1,189 @@
+
+
+/*
+ProyectoWeb
+    Web Pages
+        practicaestilos.css
+        practicaestilos.html
+Con un estilo externo intentar redondear bordes de una imagen.
+Dibujar una tabla y cambiar el color de la cabecera.
+Las filas de la tabla que tengan otro tipo de letra.
+Que la imagen aparezca a la izquierda y la tabla a la derecha.
+*/
+/*css rounded corners
+https://www.w3schools.com/css/css3_borders.asp :(https://www.w3schools.com/css/)
+*/
+/*
+   img {
+  border-radius: 20px;
+  background: red;
+  padding: 5px;
+  width: 360px;
+  height: 360px;
+}
+table{
+    background-color: blue 
+}
+/*select{
+    background-color: greenyellow
+}*//*
+h4{
+    font-family: Papyrus;
+    text-align: center;
+}
+h2{
+    text-decoration: underline overline;
+      /*  text-decoration-line: underline;*/
+}
+div{
+    /*text-decoration-line:overline underline;*/ 
+}
+p{
+ 
+ /* text-transform: capitalize;*/
+ /*text-transform: lowercase;*/
+  /*text-transform: uppercase;*/
+   /*font-family: "Times New Roman", Times, cursive;*/
+   font-family: Lucida Handwriting;
+}
+p2{
+      /*font-family: Arial, Helvetica, sans-serif;*/
+     /* font-family: "Lucida Console", "Courier New", monospace;*/
+}
+div{
+     /* text-shadow: 2px 2px red;*/ 
+}
+h3{
+    	font-family: Brush Script MT;
+      text-shadow: 2px 2px 5px red;
+}
+
+h1{
+  text-shadow: 2px 2px red;
+  
+}
+/*body {
+  padding-bottom: 20px;
+
+*/button {
+   	/*text-shadow: 2px 2px red; background-color: yellow;*/
+     
+       <span class="navbar-toggler-icon"></span>
+        <svg  width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg> 
+                            
+
+
+    <svg  width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+    </svg>    
+}
+
+}
+/*
+.navbar {
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 50%;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+  .disabled{
+      opacity: 0.6;
+      cursor: not-allowed;
+      .button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;//opacidad
+  right: 0;//derecha
+    }
+  }
+}
+//boton encima de la imagen
+.button {
+  display: block;
+}
+
+.button{
+  display: inline-block;//pantalla: bleque en linea;
+  border-radius: 4px;//radio del borde :4px;
+  background-color: #f4511e; //color de fondo: # f4511e;
+  border: none; //borde : ninguno:
+  color: #FFFFFF; //color : #ffffff;
+  text-align: center;//alineacion de texto : centro;
+  font-size: 28px;//tamaño de la fuente : 28px;
+  padding: 20px; //relleno : 20px;
+  width: 200px; // ancho 200px;
+  transition: all 0.5s; //transicion: todos los 0,5 s;
+  cursor: pointer; //cursor : puntero;
+  margin: 5px; //margen : 5px ;
+}
+
+.button span {
+  cursor: pointer;  //cursor : puntero;
+  display: inline-block; //pantalla: bloque en linea;
+  position: relative; //posicion : relativa;
+  transition: 0.5s; //transicion : 0,5s;
+}
+
+.button span:after {
+  content: '\00bb'; // contenido : \00b;
+  position: absolute;//posicion : absoluta;
+  opacity: 0; //opacidad
+  top: 0; //arriba
+  right: -20px; //derecha
+  transition: 0.5s; //transicion
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;//opacidad
+  right: 0;//derecha
+}
+//efecto de onda al pulsar
+
+  position: relative;//posicion : relativa
+  background-color: #4CAF50; //color de fondo
+  border: none; //borde :ninguno
+  font-size: 28px; //tamaño de la funte
+  color: #FFFFFF; //color
+  padding: 20px; //relleno
+  width: 200px; //ancho
+  text-align: center; //texto alineacion : centro
+  transition-duration: 0.4s; // transicion duracion
+  text-decoration: none; //texto - decoracion : ninguna
+  overflow: hidden; //desdordamiento : oculto
+  cursor: pointer; // puntero
+}
+
+.button:after { 
+  content: ""; //contenido
+  background: #f1f1f1;// fondo
+  display: block; // pantalla : bloque
+  position: absolute; // posicion : absoluta
+  padding-top: 300%; // acolchado superior 
+  padding-left: 350%;// acolchado izquierda
+  margin-left: -20px !important;//margen izquierda 
+  margin-top: -120%; // margen superior
+  opacity: 0;//opacidad
+  transition: all 0.8s // transicion :todos
+}
+
+.button:active:after {
+  padding: 0; //acolchado 
+  margin: 0; //margen
+  opacity: 1; //opacidad
+  transition: 0s //transicion
+}*/

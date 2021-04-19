@@ -1,0 +1,15 @@
+body{
+  /* The image used */
+  background-image: url(https://i.pinimg.com/originals/64/b2/32/64b2324ffdcc028d923ec5beb3429c57.jpg) ;
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+

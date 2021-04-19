@@ -1,0 +1,72 @@
+/*
+ProyectoWeb
+    Web Pages
+        practicaestilos.css
+        practicaestilos.html
+Con un estilo externo intentar redondear bordes de una imagen.
+Dibujar una tabla y cambiar el color de la cabecera.
+Las filas de la tabla que tengan otro tipo de letra.
+Que la imagen aparezca a la izquierda y la tabla a la derecha.
+*/
+/*css rounded corners
+https://www.w3schools.com/css/css3_borders.asp :(https://www.w3schools.com/css/)
+*/
+
+   img {
+  border-radius: 20px;
+  background: red;
+  padding: 5px;
+  width: 360px;
+  height: 360px;
+}
+table{
+    background-color: blue 
+}
+select{
+    background-color: greenyellow
+}
+h4{
+    font-family: Papyrus;
+    text-align: center;
+}
+h2{
+    text-decoration: underline overline;
+      /*  text-decoration-line: underline;*/
+}
+div{
+    /*text-decoration-line:overline underline;*/ 
+}
+p{
+ 
+ /* text-transform: capitalize;*/
+ /*text-transform: lowercase;*/
+  /*text-transform: uppercase;*/
+   /*font-family: "Times New Roman", Times, cursive;*/
+   font-family: Lucida Handwriting;
+}
+p2{
+      /*font-family: Arial, Helvetica, sans-serif;*/
+     /* font-family: "Lucida Console", "Courier New", monospace;*/
+}
+div{
+     /* text-shadow: 2px 2px red;*/ 
+}
+h3{
+    	font-family: Brush Script MT;
+      text-shadow: 2px 2px 5px red;
+}
+button {
+   	text-shadow: 2px 2px red; background-color: yellow;
+}
+
+h1{
+  text-shadow: 2px 2px red;
+  
+}
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
